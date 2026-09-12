@@ -2,25 +2,25 @@ let name = "Pritam";
 let age = 21;
 let marks = 78;
 let attendance = 82;
-let grade;
+
 if(age >= 18){
     console.log("Age Eligible")
 }else {
     console.log("Age Not Eligible")
 }
 if(marks >= 90 && marks <= 100){
-    grade = "A+"
+   console.log("A")
 }else if(marks >=80 && marks <= 89){
-    grade = "A"
+   console.log("A+")
 
 }else if(marks >= 70 && marks<= 79){
-    grade = "B"
+   console.log("B")
 }else if(marks >= 60 && marks <= 69){
-    grade =" C"
+   console.log("C")
 }else if(marks >= 50 && marks <= 59){
-    grade = "D"
+    console.log("D")
 }else{
-    grade = "Fail"
+    console.log("Fail")
 }
 if(attendance >= 75){
     console.log("Attendance Eligible")
